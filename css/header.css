@@ -10,7 +10,11 @@ header {
 header h1 {
     font-size: 2.8em;
     font-weight: 200;
-    cursor: pointer;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: inherit;
 }
 
 header nav {
@@ -23,11 +27,11 @@ header nav a {
     font-size: 1.5em;
 }
 
-header h1, a {
+header h1, header nav a {
     color: #00e0ff;
     transition: 0.2s ease-in-out;
 }
 
-header h1:hover, a:hover{
+header h1:hover, header nav a:hover {
     color: #fff;
 }
