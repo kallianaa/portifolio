@@ -20,10 +20,10 @@ header h1 a {
 header nav {
     display: flex;
     align-items: center;
+    gap: 1.3em;
 }
 
 header nav a {
-    margin-right: 1.3em;
     font-size: 1.5em;
 }
 
